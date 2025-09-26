@@ -50,6 +50,40 @@ This project bridges that gap:
     "NETBOX_TOKEN": "YOUR_API_TOKEN_HERE"
   }
 
+## Usage Screenshots
+
+### 1. Running `subnet_allocator.py`
+- Input file: `requests.csv` with customer demands.  
+- Output file: `allocations.csv` with allocated subnets.  
+
+**requests.csv**  
+![Requests CSV](screenshots/requests.png)  
+
+**allocations.csv (after running subnet_allocator.py)**  
+![Allocations CSV](screenshots/allocations.png)  
+
+---
+
+### 2. NetBox Before and After Allocation
+When you start, your NetBox IPAM may be empty:  
+
+**NetBox (before allocation)**  
+![NetBox Before](screenshots/netbox_before.png)  
+
+After running `netbox_allocator.py` and allocating prefixes, the subnets are created automatically in NetBox:  
+
+**NetBox (after allocation)**  
+![NetBox After](screenshots/netbox_after.png)  
+
+---
+
+### 3. Using `netbox_allocator.py`
+The tool provides a simple command-line menu for managing allocations.  
+
+**Main Menu**  
+![Allocator Menu](screenshots/allocation_menu.png)  
+
+
 # Setting up a NetBox Account
 
 Follow these steps to create a free NetBox Cloud account and generate your API token for use with the subnet allocator tool.
