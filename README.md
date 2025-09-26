@@ -57,10 +57,10 @@ This project bridges that gap:
 - Output file: `allocations.csv` with allocated subnets.  
 
 **requests.csv**  
-![Requests CSV](screenshots/requests.png)  
+![Requests CSV](screenshots/requests.PNG)  
 
 **allocations.csv (after running subnet_allocator.py)**  
-![Allocations CSV](screenshots/allocations.png)  
+![Allocations CSV](screenshots/allocations.PNG)  
 
 ---
 
@@ -68,12 +68,12 @@ This project bridges that gap:
 When you start, your NetBox IPAM may be empty:  
 
 **NetBox (before allocation)**  
-![NetBox Before](screenshots/netbox_before.png)  
+![NetBox Before](screenshots/NetBox_before.PNG)  
 
 After running `netbox_allocator.py` and allocating prefixes, the subnets are created automatically in NetBox:  
 
 **NetBox (after allocation)**  
-![NetBox After](screenshots/netbox_after.png)  
+![NetBox After](screenshots/NetBox_after.PNG)  
 
 ---
 
@@ -81,7 +81,7 @@ After running `netbox_allocator.py` and allocating prefixes, the subnets are cre
 The tool provides a simple command-line menu for managing allocations.  
 
 **Main Menu**  
-![Allocator Menu](screenshots/allocation_menu.png)  
+![Allocator Menu](screenshots/allocation_menu.PNG)  
 
 
 # Setting up a NetBox Account
